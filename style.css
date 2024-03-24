@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.main1{
+    margin-bottom: 31px;
+    width: 100%;
+    display: flex;
+}
+
+.main2{
+    color: orange;
+    text-decoration: underline;
+}
+
+.services{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 111px;
+    margin-top: 124px;
+}
+
+.container1{
+    display: flex;
+    margin-bottom: 71px;
+}
+
+.container2{
+    width: calc(33% - 70px);
+}
+
+.oun{
+    margin-right: 59px;
+}
+
+.two{
+    margin-right: 69px;
+}
+
+.pic{
+    width: 270px;
+    height: 180px;
+    margin-bottom: 31px;
+}
+
+h3{
+    margin-bottom: 18px;
+}
+
+.description{
+    width: 270px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box::before{
+    content: 'Пример';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
